@@ -1,5 +1,6 @@
 // const array = [1,2,3,4,5,6,7,8,9,10];
 const array = new Array();
+array.push(0);
 array.push(1);
 array.push(2);
 array.push(3);
@@ -21,7 +22,7 @@ for(i = 0; i< array.length; i++){
 }
 // Method2
 function check(i){
-    return i == 10
+    return i >= 9
 }
 const position = array.findIndex(check);
 console.log(position);
