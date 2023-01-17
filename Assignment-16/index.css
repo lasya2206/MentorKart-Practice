@@ -1,11 +1,11 @@
-.container{
+.container-flex{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(158, 16, 240);
 }
 
-.container > div {
+.container-flex > div {
     width: 100px;
     height: 100px;
     border: 2px dashed red;
@@ -17,69 +17,114 @@
   .box2{
     background-color: aqua;
     align-items: left;
-    display: flex;
+    
    
     position: absolute;
   }
   .box3{
     background-color: aqua;
-    
-    display: flex;
+    margin-top: 250px;
+    margin-left: 313px; 
+    margin-right: -341px;
 
   }
 .box4{
-    flex-direction: column;
     background-color: aqua;
          margin: 239px;
-        margin-right: 204px;
-        margin-left: -185px;
+         margin-right: 430px;
+         margin-left: -436px;
         margin-top: 258px;
+        
 }
 .box5{
     background-color: aqua;
-    display: flex;
+   margin-right: -239px;
 }
 .box6{
     background-color: aqua;
     margin-top: 250px;
-    display: flex;
+    margin-right: -81px;
    
 }
 .box7{
     background-color: aqua;
     margin-top: 499px;
-    display: flex;
+    
     margin-left: -163px;
 }
 .box8{
     background-color: aqua;
-    margin-top: 250px;
-    display: flex;
+    margin-left: -216px;
+    margin-right: -8px;
+    margin-top: 353px;
+    
 }
 .box9{
     background-color: aqua;
-    display: flex;
+    margin-top: 250px;
+    margin-left: -120px;
 }
 .box10{
     background-color: aqua;
-    display: flex;
+    margin-top: 146px;
+    margin-right: 359px;
+    margin-left: -330px;
+
 }
 .box11{
     background-color: aqua;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.box13{
-    background-color: aqua;
-    margin-top: 500px;
-    display: flex;
+   
+    margin-right:-230px;
 }
 .box12{
     background-color: aqua;
     margin-top: 250px;
-    margin-right: -163px;
-    display: flex;
+    margin-right: -228px;
+}
+.box13{
+    
+    background-color: aqua;
+    margin-top: 500px;
+  
+}
+.box1      :hover{
+    
+    background-color: chartreuse;
 }
 
-
+.box2:hover{
+    background-color: chartreuse;
+}
+.box3:hover{
+    background-color: chartreuse;
+}
+.box4:hover{
+    background-color: chartreuse;
+}
+.box5:hover{
+    background-color: chartreuse;
+}
+.box6:hover{
+    background-color: chartreuse;
+}
+.box7:hover{
+    background-color: chartreuse;
+}
+.box8:hover{
+    background-color: chartreuse;
+}
+.box9:hover{
+    background-color: chartreuse;
+}
+.box10:hover{
+    background-color: chartreuse;
+}
+.box11:hover{
+    background-color: chartreuse;
+}
+.box12:hover{
+    background-color: chartreuse;
+}
+.box13:hover{
+    background-color: chartreuse;
+}
