@@ -1,0 +1,88 @@
+.container{
+    border: solid  rgb(89, 32, 143) ;
+}
+.form{
+ 
+   
+    justify-content: center;
+   
+    align-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:31px;
+}
+h1:hover{
+    cursor: pointer;
+    background-color: forestgreen;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:31px;
+}
+.name:hover{
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:34px;
+}
+.contact:hover{
+    background-color: coral;
+    cursor: pointer;
+}
+.Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+.Email:hover{
+    background-color: cyan;
+    cursor: pointer;
+}
+.dob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 34px;
+}
+.dob:hover{
+    background-color: darkgoldenrod;
+    cursor: pointer;
+}
+.input{
+    margin-left: 588px;
+    margin-top: 10px;
+
+}
+.input:hover{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+.DOB{
+    margin-left: 623px;
+    margin-top: 10px;
+}
+.DOB:hover{
+cursor: pointer;
+background-color: aquamarine;
+}
+.submit{
+    margin-left:  647px;
+    margin-top: 34px;
+    border-radius: 5px;
+    height: 43px;
+    width: 77px;
+}
+.submit:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
