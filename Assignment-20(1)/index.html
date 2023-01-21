@@ -1,18 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Specificity Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header>
-       <nav>
-        <a>Polypane</a> 
-        
-       </nav>
-           
-        </header>
+    <div id="container">
+
+        <nav>
+            <div id="logo">
+                Polypane
+            </div>
+            <ul>
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Blog</a></li>
+                <li class="dropdown" onmouseover="hover(this);" onmouseout="out(this);"><a href="#">Features &nbsp;<i
+                            class="fa fa-caret-down"></i></a>
+                    <div class="dd">
+                        <div id="up_arrow"></div>
+                        <ul>
+
+                            <li><a href="#">Responsive Design</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Site Quality</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Pricing</a></li>
+                <li class="dropdown"><a href="#">Testimonials &nbsp;<i class="fa fa-caret-down"></i> </a>
+                    <div class="dd">
+                        <div id="u_a_c">
+                            <div id="up_arrow"></div>
+                        </div>
+                        <ul>
+
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Case Studies</a></li>
+                            <li><a href="#">Accolades</a></li>
+                        </ul>
+                    </div>
+            </ul>
+        </nav>
+
+    </div>
+    <div>
+        <h1>CSS Specificity Calculator</h1>
+        <p>Supports all of CSS Selectors level 4</p>
+
+    </div>
+    <div>
+        <h4><strong>ul > li : is (.highlighted , .active)</strong></h4>
+        <p class="link">
+            Try Some:
+            <a href="#"> header h1#sitetitle > .logo ,</a>
+            <a href="#">ul > li:is(.highlighted, .active) ,</a>
+            <a href="#">header:where(#top) nav li:nth-child(2n + 1)</a>
+        </p>
+    </div>
+    <div class="h2">
+        <h2>
+            <small>Specificity Score</small>
+        </h2>
+        <br />
+        <div class="numbers">
+            <div id="zero">
+                <button> 0</button>
+            </div>
+            <div id="one">
+                <button>1</button>
+            </div>
+            <div id="two">
+                <button>2</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="3">
+        <div id="ul">
+            <button> ul</button>
+        </div>
+        <div id="li">
+            <button>li</button>
+        </div>
+        <div id="is">
+            <button>:is(.highlighted, .active)</button>
+        </div>
+    </div>
+    <div class="cont">
+        <div class="box1">
+           <p> 0</p>
+      
+                </div>
+                
+                <div class="box2">
+                    <p> 1</p>
+                </div>
+                <div class="box3">
+                    <p> 2</p>
+                </div>
+    </div>
+    <div class="texts">
+        <div id="Zero">
+          <p>0 ids</p>
+       
+        </div>
+        <div id="One">
+            <p>1 pseudo-class</p>
+        </div>
+        <div id="Two"> <p>2 elements</p></div>
+    </div>
+    <div>
+        <div class="ul">
+            <button> ul</button>
+        </div>
+        <div class="li">
+            <button>li</button>
+        </div>
+        <div class="is">
+            <button>:is(.highlighted, .active)</button>
+        </div>
+    </div>
 </body>
+
 </html>
